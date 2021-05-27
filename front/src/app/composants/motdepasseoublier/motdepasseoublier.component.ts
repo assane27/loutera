@@ -22,9 +22,9 @@ data:any
 this.data=detailId.value.email
 console.log(this.data)
     this.data={data:this.data}
-    this.connexionService.oublier(this.data).subscribe((resultat)=>{
+    /*this.connexionService.oublier(this.data).subscribe((resultat)=>{
       this.route.navigate(['connexion/']);
-    })
+    })*/
   }  
   
 }
